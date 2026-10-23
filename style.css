@@ -11,6 +11,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 img{
@@ -21,7 +25,7 @@ img{
 
 .meta:hover{
     transition: .9s;
-    transform: scale(3);
+    transform: scale(2);
 }
 
 h2{
@@ -31,3 +35,4 @@ h2{
 p{
     width: 400px;
 }
+
