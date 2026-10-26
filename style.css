@@ -30,9 +30,20 @@ img{
 
 h2{
     width: 400px;
+    background-color: #e3cdf8;
 }
 
 p{
     width: 400px;
 }
 
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(45deg, #eba7c9, #e3cdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
