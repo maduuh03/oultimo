@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+:root{
+     --cor-principal: #BE5985;
+     --cor-secundaria: #EC7FA9;
+     --cor-terciaria: #FFB8E0;
+     --cor-detalhe: #FFEDFA;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .secao-metas{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    background-color: var(--cor-terciaria);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px var(--cor-secundaria);
 }
 
 .meta{
@@ -28,21 +49,17 @@ img{
     transform: scale(2);
 }
 
-h2{
-    width: 400px;
-    background-color: #e3cdf8;
+h2 {
+    width: 400;
+    background: linear-gradient(45deg, #eba7c9, #db3a80);
+p {
+    width: 400;
 }
-
-p{
-    width: 400px;
-}
-
-
 h1 {
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 3rem;
-    font-weight: 800;
-    background: linear-gradient(45deg, #eba7c9, #e3cdf8);
+    font-family: 'Allura', cursive;
+    font-size: 4rem; 
+    font-weight: 400;
+    background: linear-gradient(45deg, #eba7c9, #BE5985);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
